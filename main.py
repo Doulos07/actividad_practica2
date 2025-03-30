@@ -20,3 +20,12 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!"""
 
+zen_text = zen_text.split("\n") #creo listas que son creadas por cad salto de linea "\n"
+
+vocales = "AEIOUaeiou"
+
+for lineas in zen_text : 
+    palabras = lineas.split() #Divido la linea en palabras 
+    print(lineas) if len(palabras) > 1 and palabras[1][0] in vocales else None
+ 
+#verifico si por lo menos tiene una palabra, 2do renglon sin palabras y se incluye por salto de linea

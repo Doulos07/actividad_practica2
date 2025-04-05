@@ -1,9 +1,4 @@
-Se debe también crear un README.md que explique como instalar las dependencias y
-ejecutar el programa.
-
 #  Instalacion de las dependencias <!-- Título grande con h1 -->
-### Puede hacerlo Automaticamente con el comando 
-`pip install -r` `requirements.txt` : installa todos los entornos que son requeridos, los que estan escritos en requirements.tx
 
 # Entorno Virtual
 
@@ -18,6 +13,10 @@ Desactivación : desactivate
 ```
 
 # Jupyter Notebook
+
+
+### Puede hacerlo Automaticamente con el comando 
+`pip install -r` `requirements.txt` : installa todos los entornos que son requeridos, los que estan escritos en requirements.tx
 
 ```bash
 

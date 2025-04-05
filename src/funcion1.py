@@ -1,5 +1,3 @@
-import segunda_palabra_vocal
-
 def segunda_palabra_vocal (zen_text) :
      text = ""
      zen_text = zen_text.split("\n") #creo listas que son creadas por cad salto de linea "\n"
